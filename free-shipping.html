@@ -89,15 +89,26 @@ background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:
 .stats div,.why>div{background:#111917}
 .cta{background:#5ec6d4;color:#08100f}}
 
-/* --- motion layer, 2026-09-05. Rules that keep it free of SEO cost:
-   1. NO JavaScript. 0 scripts stays 0 scripts.
-   2. Only transform and opacity are animated — compositor-only properties, so
-      Cumulative Layout Shift stays at zero. Never height, margin or top.
-   3. Content defaults to VISIBLE. The reveal state is applied only inside
-      @supports(animation-timeline) AND prefers-reduced-motion:no-preference, so a
-      browser that cannot animate — or a reader who asked for stillness — gets the
-      finished state, never a blank one. A crawler is never shown opacity:0 content.
-   4. No new assets. Still 0 images, 0 webfonts, 0 stylesheets. --- */
+/* --- motion layer, 2026-09-05, deliberately conservative.
+   Pierre: SEO and dominating every browser is the ONLY priority; anything I cannot be
+   certain is free of cost does not ship. So this layer is hover-and-scroll only.
+
+   WHAT WAS REMOVED, and why, so nobody re-adds it:
+   - Scroll-driven reveals (animation-timeline:view). Googlebot renders in Chromium,
+     which supports them, and it does NOT scroll — it renders at a tall viewport. Content
+     below that fold would be captured mid-animation at low opacity, and Google may
+     discount what it renders as hidden. Unprovable either way, therefore out.
+   - An infinitely animating blurred gradient. A large blurred layer repainting forever is
+     real GPU work on a weak phone and INP is a ranking signal. The identical look is
+     available as a static gradient for nothing.
+
+   WHAT IS HERE, and why it is certain:
+   - :hover transitions on transform and box-shadow. They fire only on deliberate user
+     input, never during render, and cannot change what a crawler sees.
+   - A scroll-snap panel rail. Ordinary visible HTML in an overflow container, indexed
+     normally; nothing is hidden and no script is involved.
+   - A static gradient. Paints once.
+   Still 0 scripts, 0 stylesheets, 0 webfonts, 0 images, and no keyframes at all. --- */
 html{scroll-behavior:smooth}
 .hero{position:relative;overflow:hidden}
 .hero::before{content:"";position:absolute;inset:-40% -10% auto -10%;height:150%;
@@ -106,7 +117,7 @@ background:
  radial-gradient(32% 40% at 82% 12%,rgba(94,198,212,.15),transparent 64%),
  radial-gradient(30% 38% at 62% 78%,rgba(15,95,107,.10),transparent 66%);
 filter:blur(12px);z-index:-1;transform:translate3d(0,0,0)}
-/* static by design — see the note above; an infinite repaint is not worth INP risk */
+/* static by design — see the note above */
 .stats div,.why>div,.rail .box{transition:transform .45s cubic-bezier(.22,1,.36,1),
 box-shadow .45s cubic-bezier(.22,1,.36,1),border-color .3s ease}
 .why>div:hover,.stats div:hover{transform:translateY(-4px);
