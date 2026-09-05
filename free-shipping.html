@@ -43,7 +43,7 @@ h2{font-size:1.28rem;letter-spacing:-.01em;padding-top:6px}
 .guides a{display:block;margin:0 0 7px;color:#125e6b;text-decoration:none;break-inside:avoid}
 .guides a:hover{text-decoration:underline}
 @media(max-width:640px){.guides{columns:1}}
-.wrap{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:34px;align-items:start}
+.ggwrap{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:34px;align-items:start}
 .rail{position:sticky;top:18px;font-size:.9rem}
 .rail .box{border:1px solid #e3e8e6;border-radius:10px;padding:14px 16px;margin:0 0 14px;background:#fcfdfd}
 .rail h3{font-size:.74rem;text-transform:uppercase;letter-spacing:.1em;color:#5a6866;margin:0 0 9px}
@@ -51,7 +51,7 @@ h2{font-size:1.28rem;letter-spacing:-.01em;padding-top:6px}
 .rail dt{color:#5a6866}.rail dd{margin:0;font-weight:600;text-align:right}
 .rail a{display:block;color:#125e6b;text-decoration:none;margin:0 0 6px}
 .rail a:hover{text-decoration:underline}
-@media(max-width:860px){.wrap{grid-template-columns:1fr}.rail{position:static}}
+@media(max-width:860px){.ggwrap{grid-template-columns:1fr}.rail{position:static}}
 @media(prefers-color-scheme:dark){.rail .box{background:#141c1b;border-color:#26302e}
 .rail a{color:#63becd}.rail h3,.rail dt{color:#93a29e}}
 /* --- landing design, 2026-09-05. Presentation only; seo_snapshot.py proves no text,
@@ -185,7 +185,7 @@ padding:4px 11px;border-radius:999px;font-size:.79rem;font-weight:700;letter-spa
 <div class="masthead"><span class="brand">Growth Guys Canada &mdash; Code Verification Desk</span><span class="tag">Independent daily cart testing &middot; TorontoHealth</span></div>
 <nav><a href="/">HEALTHYLIFE10</a><a href="/canada.html">CANADA</a><a href="/peptides.html">PEPTIDES</a><a href="/hello10.html">HELLO10</a><a href="/verified10.html">VERIFIED10</a><a href="/which-code.html">Which code</a><a href="/not-working.html">Not working?</a><a href="/verification-log.html">Verification log</a></nav>
 <div class="shell"><h1>Growth Guys free shipping code — tested September 5, 2026</h1></div>
-<div class="shell"><div class="wrap"><div>
+<div class="shell"><div class="ggwrap"><div>
 <p class="lead">Cart-tested on September 5, 2026 at Growth Guys (growthguys.com): <span class='chip'>HEALTHYLIFE10</span> took <b>$16.00 CAD</b> off a <b>$160.00 CAD</b> cart (BAM15 Tablets) &mdash; exactly 10% off, with no minimum purchase and no product exclusions.</p>
 
 <h2>What the code does and does not cover</h2><p>This is the honest version: the code is a 10% discount on the cart subtotal. It is not a free-shipping code, and it does not zero out a shipping line. In our recorded tests the discount is applied against the item subtotal only, and shipping and taxes are assessed separately at a later checkout step that our checker deliberately does not reach — we stop at the guest cart and never submit an order. Anyone telling you a Growth Guys code removes shipping is describing something we have not been able to reproduce, and we would publish it if we could.</p><h2>The cart that was tested</h2><table><tr><th>Item</th><th>Amount</th></tr><tr><td>BAM15 Tablets</td><td>$160.00 CAD</td></tr><tr><td>Coupon <b>healthylife10</b></td><td>&minus;$16.00 CAD</td></tr><tr><td><b>Total paid</b></td><td><b>$144.00 CAD</b></td></tr><tr><td>Result</td><td><span class='ok'>PASS &middot; 10.0%</span></td></tr></table><p>Observed September 5, 2026 at the guest-cart stage through the store's public cart API. The cart value is varied on every run, so no two days test the same basket &mdash; a code that only worked at one price point would be caught.</p>

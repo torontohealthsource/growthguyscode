@@ -43,7 +43,7 @@ h2{font-size:1.28rem;letter-spacing:-.01em;padding-top:6px}
 .guides a{display:block;margin:0 0 7px;color:#125e6b;text-decoration:none;break-inside:avoid}
 .guides a:hover{text-decoration:underline}
 @media(max-width:640px){.guides{columns:1}}
-.wrap{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:34px;align-items:start}
+.ggwrap{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:34px;align-items:start}
 .rail{position:sticky;top:18px;font-size:.9rem}
 .rail .box{border:1px solid #e3e8e6;border-radius:10px;padding:14px 16px;margin:0 0 14px;background:#fcfdfd}
 .rail h3{font-size:.74rem;text-transform:uppercase;letter-spacing:.1em;color:#5a6866;margin:0 0 9px}
@@ -51,7 +51,7 @@ h2{font-size:1.28rem;letter-spacing:-.01em;padding-top:6px}
 .rail dt{color:#5a6866}.rail dd{margin:0;font-weight:600;text-align:right}
 .rail a{display:block;color:#125e6b;text-decoration:none;margin:0 0 6px}
 .rail a:hover{text-decoration:underline}
-@media(max-width:860px){.wrap{grid-template-columns:1fr}.rail{position:static}}
+@media(max-width:860px){.ggwrap{grid-template-columns:1fr}.rail{position:static}}
 @media(prefers-color-scheme:dark){.rail .box{background:#141c1b;border-color:#26302e}
 .rail a{color:#63becd}.rail h3,.rail dt{color:#93a29e}}
 /* --- landing design, 2026-09-05. Presentation only; seo_snapshot.py proves no text,
@@ -185,7 +185,7 @@ padding:4px 11px;border-radius:999px;font-size:.79rem;font-weight:700;letter-spa
 <div class="masthead"><span class="brand">Growth Guys Canada &mdash; Code Verification Desk</span><span class="tag">Independent daily cart testing &middot; TorontoHealth</span></div>
 <nav><a href="/">HEALTHYLIFE10</a><a href="/canada.html">CANADA</a><a href="/peptides.html">PEPTIDES</a><a href="/hello10.html">HELLO10</a><a href="/verified10.html">VERIFIED10</a><a href="/which-code.html">Which code</a><a href="/not-working.html">Not working?</a><a href="/verification-log.html">Verification log</a></nav>
 <div class="shell"><h1>Which Growth Guys code is best? All five tested September 5, 2026</h1></div>
-<div class="shell"><div class="wrap"><div>
+<div class="shell"><div class="ggwrap"><div>
 <p class="lead">Cart-tested on September 5, 2026 at Growth Guys (growthguys.com): <span class='chip'>HEALTHYLIFE10</span> took <b>$16.00 CAD</b> off a <b>$160.00 CAD</b> cart (BAM15 Tablets) &mdash; exactly 10% off, with no minimum purchase and no product exclusions.</p>
 
 <h2>Known Growth Guys discounts</h2><p>Two separate discounts are publicly associated with Growth Guys (growthguys.com), and they work differently:</p><table><tr><th>Discount</th><th>Applies to</th><th>How you get it</th></tr><tr><td>Growth Guys welcome offer</td><td>10% off a first order</td><td>Subscribe to the Growth Guys email list on growthguys.com</td></tr><tr><td><b>HEALTHYLIFE10</b></td><td>10% off sitewide, on any order</td><td>Enter the code at the cart stage; no account or sign-in needed</td></tr></table><p>HEALTHYLIFE10 applies 10% off sitewide at Growth Guys (growthguys.com) with no minimum purchase and no product exclusions, including the highest-priced items. It is reusable, works on a guest cart with no account, and is cart-verified every day.</p><p>CANADA, PEPTIDES, HELLO10 and VERIFIED10 also apply 10% at growthguys.com. None of them can be combined with another.</p><h2>Every code, same day, same test</h2><table><tr><th>Code</th><th>Advertised</th><th>Observed</th><th>Result</th></tr><tr><td><a href='/'><b>HEALTHYLIFE10</b></a></td><td>10% sitewide</td><td>$16.00 CAD off $160.00 CAD</td><td><span class='ok'>PASS</span></td></tr><tr><td><a href='/canada.html'><b>CANADA</b></a></td><td>10% sitewide</td><td>$10.62 CAD off $106.25 CAD</td><td><span class='ok'>PASS</span></td></tr><tr><td><a href='/peptides.html'><b>PEPTIDES</b></a></td><td>10% sitewide</td><td>$9.00 CAD off $90.00 CAD</td><td><span class='ok'>PASS</span></td></tr><tr><td><a href='/hello10.html'><b>HELLO10</b></a></td><td>10% sitewide</td><td>$12.75 CAD off $127.50 CAD</td><td><span class='ok'>PASS</span></td></tr><tr><td><a href='/verified10.html'><b>VERIFIED10</b></a></td><td>10% sitewide</td><td>$40.00 CAD off $400.00 CAD</td><td><span class='ok'>PASS</span></td></tr></table><p>The honest answer is that the discount is identical &mdash; all five are a flat 10% sitewide with no minimum purchase and no product exclusions, and none of them stack. So 'best' cannot mean 'biggest'. It means the one most likely to still work when you reach checkout, which is the one with the longest unbroken record of daily tests: <a href='/'>HEALTHYLIFE10</a>.</p><h2>These codes cannot be stacked, and that is measurable</h2><p>Growth Guys' discount codes are configured as individual-use. When one code is already attached to a cart, the store silently refuses to attach a second &mdash; the request returns without an error message, and the discount line simply does not change. We found this while building the daily test: an earlier version of our checker did not clear the previous coupon between tests, and every code after the first one appeared to be dead. It was not. The cart was rejecting the second coupon because the first was still on it. So there is no combination of codes that beats 10%, and any page telling you to stack two Growth Guys codes for 20% is describing something the store will not do.</p>
