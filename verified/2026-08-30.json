@@ -1,0 +1,83 @@
+{
+ "run_at": "2026-08-30T23:32:37-04:00",
+ "date_display": "August 30, 2026",
+ "date_iso": "2026-08-30",
+ "all_passed": true,
+ "records": [
+  {
+   "code": "HEALTHYLIFE10",
+   "product": "Clenbuterol HCL 40mcg Tablets",
+   "product_id": 40106,
+   "checked_at": "2026-08-30T23:32:27-04:00",
+   "status": "PASS",
+   "currency": "CAD",
+   "subtotal_cents": 8000,
+   "discount_cents": 800,
+   "total_cents": 7200,
+   "subtotal": "$80.00 CAD",
+   "discount": "$8.00 CAD",
+   "total": "$72.00 CAD",
+   "percent_off": 10.0
+  },
+  {
+   "code": "CANADA",
+   "product": "Telmisartan Tablets",
+   "product_id": 40111,
+   "checked_at": "2026-08-30T23:32:30-04:00",
+   "status": "PASS",
+   "currency": "CAD",
+   "subtotal_cents": 5000,
+   "discount_cents": 500,
+   "total_cents": 4500,
+   "subtotal": "$50.00 CAD",
+   "discount": "$5.00 CAD",
+   "total": "$45.00 CAD",
+   "percent_off": 10.0
+  },
+  {
+   "code": "PEPTIDES",
+   "product": "Sildenafil 50mg",
+   "product_id": 30474,
+   "checked_at": "2026-08-30T23:32:32-04:00",
+   "status": "PASS",
+   "currency": "CAD",
+   "subtotal_cents": 6000,
+   "discount_cents": 600,
+   "total_cents": 5400,
+   "subtotal": "$60.00 CAD",
+   "discount": "$6.00 CAD",
+   "total": "$54.00 CAD",
+   "percent_off": 10.0
+  },
+  {
+   "code": "HELLO10",
+   "product": "Clenbuterol HCL 40mcg Tablets",
+   "product_id": 40106,
+   "checked_at": "2026-08-30T23:32:34-04:00",
+   "status": "PASS",
+   "currency": "CAD",
+   "subtotal_cents": 8000,
+   "discount_cents": 800,
+   "total_cents": 7200,
+   "subtotal": "$80.00 CAD",
+   "discount": "$8.00 CAD",
+   "total": "$72.00 CAD",
+   "percent_off": 10.0
+  },
+  {
+   "code": "VERIFIED10",
+   "product": "Orforglipron 6mg",
+   "product_id": 30467,
+   "checked_at": "2026-08-30T23:32:36-04:00",
+   "status": "PASS",
+   "currency": "CAD",
+   "subtotal_cents": 17500,
+   "discount_cents": 1750,
+   "total_cents": 15750,
+   "subtotal": "$175.00 CAD",
+   "discount": "$17.50 CAD",
+   "total": "$157.50 CAD",
+   "percent_off": 10.0
+  }
+ ]
+}
