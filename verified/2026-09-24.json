@@ -1422,9 +1422,167 @@
      "percent_off": 10.0
     }
    ]
+  },
+  {
+   "run_at": "2026-09-24T22:15:23-04:00",
+   "records": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Ovagen 10mg",
+     "product_id": 41726,
+     "checked_at": "2026-09-24T22:15:08-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "CANADA",
+     "product": "Chonluten 30mg",
+     "product_id": 41602,
+     "checked_at": "2026-09-24T22:15:09-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 5000,
+     "discount_cents": 500,
+     "total_cents": 4500,
+     "subtotal": "$50.00 CAD",
+     "discount": "$5.00 CAD",
+     "total": "$45.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PEPTIDES",
+     "product": "KLOW Blend 80mg",
+     "product_id": 11108,
+     "checked_at": "2026-09-24T22:15:11-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 10000,
+     "discount_cents": 1000,
+     "total_cents": 9000,
+     "subtotal": "$100.00 CAD",
+     "discount": "$10.00 CAD",
+     "total": "$90.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HELLO10",
+     "product": "5-Amino-1MQ 50mg",
+     "product_id": 27278,
+     "checked_at": "2026-09-24T22:15:13-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 8000,
+     "discount_cents": 800,
+     "total_cents": 7200,
+     "subtotal": "$80.00 CAD",
+     "discount": "$8.00 CAD",
+     "total": "$72.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "VERIFIED10",
+     "product": "Glutathione 1500mg",
+     "product_id": 19541,
+     "checked_at": "2026-09-24T22:15:15-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 5000,
+     "discount_cents": 500,
+     "total_cents": 4500,
+     "subtotal": "$50.00 CAD",
+     "discount": "$5.00 CAD",
+     "total": "$45.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PRO10",
+     "product": "5-Amino-1MQ Tablets",
+     "product_id": 40639,
+     "checked_at": "2026-09-24T22:15:16-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 9000,
+     "discount_cents": 900,
+     "total_cents": 8100,
+     "subtotal": "$90.00 CAD",
+     "discount": "$9.00 CAD",
+     "total": "$81.00 CAD",
+     "percent_off": 10.0
+    }
+   ],
+   "all_passed": true,
+   "extra_primary": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Retatrutide 60mg",
+     "product_id": 20913,
+     "checked_at": "2026-09-24T22:15:18-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 30000,
+     "discount_cents": 3000,
+     "total_cents": 27000,
+     "subtotal": "$300.00 CAD",
+     "discount": "$30.00 CAD",
+     "total": "$270.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "SS-31 50mg",
+     "product_id": 5589,
+     "checked_at": "2026-09-24T22:15:20-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 15000,
+     "discount_cents": 1500,
+     "total_cents": 13500,
+     "subtotal": "$150.00 CAD",
+     "discount": "$15.00 CAD",
+     "total": "$135.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "hCG 18,000iu",
+     "product_id": 1516,
+     "checked_at": "2026-09-24T22:15:21-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 8000,
+     "discount_cents": 800,
+     "total_cents": 7200,
+     "subtotal": "$80.00 CAD",
+     "discount": "$8.00 CAD",
+     "total": "$72.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Thymosin Alpha-1 12.5mg",
+     "product_id": 11102,
+     "checked_at": "2026-09-24T22:15:23-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7000,
+     "discount_cents": 700,
+     "total_cents": 6300,
+     "subtotal": "$70.00 CAD",
+     "discount": "$7.00 CAD",
+     "total": "$63.00 CAD",
+     "percent_off": 10.0
+    }
+   ]
   }
  ],
  "first_run_at": "2026-09-24T00:01:23-04:00",
- "last_verified_at": "2026-09-24T17:18:11-04:00",
+ "last_verified_at": "2026-09-24T22:15:23-04:00",
  "posted": true
 }
