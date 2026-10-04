@@ -632,8 +632,167 @@
      "percent_off": 10.0
     }
    ]
+  },
+  {
+   "run_at": "2026-10-03T22:15:23-04:00",
+   "records": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Sildenafil 50mg Tablets",
+     "product_id": 30474,
+     "checked_at": "2026-10-03T22:15:06-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 6000,
+     "discount_cents": 600,
+     "total_cents": 5400,
+     "subtotal": "$60.00 CAD",
+     "discount": "$6.00 CAD",
+     "total": "$54.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "CANADA",
+     "product": "GLOW Blend 70mg",
+     "product_id": 2636,
+     "checked_at": "2026-10-03T22:15:08-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 8500,
+     "discount_cents": 850,
+     "total_cents": 7650,
+     "subtotal": "$85.00 CAD",
+     "discount": "$8.50 CAD",
+     "total": "$76.50 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PEPTIDES",
+     "product": "HGH – Batch GGC39 420iu Kit",
+     "product_id": 133952,
+     "checked_at": "2026-10-03T22:15:10-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 34000,
+     "discount_cents": 3400,
+     "total_cents": 30600,
+     "subtotal": "$340.00 CAD",
+     "discount": "$34.00 CAD",
+     "total": "$306.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HELLO10",
+     "product": "CJC-1295 with DAC 5mg",
+     "product_id": 2633,
+     "checked_at": "2026-10-03T22:15:11-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 5000,
+     "discount_cents": 500,
+     "total_cents": 4500,
+     "subtotal": "$50.00 CAD",
+     "discount": "$5.00 CAD",
+     "total": "$45.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "VERIFIED10",
+     "product": "CJC-1295 no DAC + Ipamorelin Blend 5mg/5mg",
+     "product_id": 2640,
+     "checked_at": "2026-10-03T22:15:13-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7500,
+     "discount_cents": 750,
+     "total_cents": 6750,
+     "subtotal": "$75.00 CAD",
+     "discount": "$7.50 CAD",
+     "total": "$67.50 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PRO10",
+     "product": "Thymosin Alpha-1 12.5mg",
+     "product_id": 11102,
+     "checked_at": "2026-10-03T22:15:15-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7000,
+     "discount_cents": 700,
+     "total_cents": 6300,
+     "subtotal": "$70.00 CAD",
+     "discount": "$7.00 CAD",
+     "total": "$63.00 CAD",
+     "percent_off": 10.0
+    }
+   ],
+   "all_passed": true,
+   "extra_primary": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Aromasin (Exemestane) Tablets 12.5mg",
+     "product_id": 159050,
+     "checked_at": "2026-10-03T22:15:17-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7000,
+     "discount_cents": 700,
+     "total_cents": 6300,
+     "subtotal": "$70.00 CAD",
+     "discount": "$7.00 CAD",
+     "total": "$63.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Retatrutide 60mg",
+     "product_id": 20913,
+     "checked_at": "2026-10-03T22:15:19-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 30000,
+     "discount_cents": 3000,
+     "total_cents": 27000,
+     "subtotal": "$300.00 CAD",
+     "discount": "$30.00 CAD",
+     "total": "$270.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "CJC-1295 no DAC 10mg",
+     "product_id": 11088,
+     "checked_at": "2026-10-03T22:15:21-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "BPC-157 / TB-500 Blend 6mg/6mg",
+     "product_id": 1520,
+     "checked_at": "2026-10-03T22:15:22-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7000,
+     "discount_cents": 700,
+     "total_cents": 6300,
+     "subtotal": "$70.00 CAD",
+     "discount": "$7.00 CAD",
+     "total": "$63.00 CAD",
+     "percent_off": 10.0
+    }
+   ]
   }
  ],
  "first_run_at": "2026-10-03T00:01:28-04:00",
- "last_verified_at": "2026-10-03T18:20:45-04:00"
+ "last_verified_at": "2026-10-03T22:15:23-04:00",
+ "posted": true
 }
