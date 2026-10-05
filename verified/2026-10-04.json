@@ -632,9 +632,167 @@
      "percent_off": 10.0
     }
    ]
+  },
+  {
+   "run_at": "2026-10-04T22:15:23-04:00",
+   "records": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "MOTS-c 10mg",
+     "product_id": 5586,
+     "checked_at": "2026-10-04T22:15:07-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "CANADA",
+     "product": "TB-500 5mg",
+     "product_id": 101,
+     "checked_at": "2026-10-04T22:15:09-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PEPTIDES",
+     "product": "Sermorelin 10mg",
+     "product_id": 3270,
+     "checked_at": "2026-10-04T22:15:11-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7500,
+     "discount_cents": 750,
+     "total_cents": 6750,
+     "subtotal": "$75.00 CAD",
+     "discount": "$7.50 CAD",
+     "total": "$67.50 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HELLO10",
+     "product": "5-Amino-1MQ 50mg",
+     "product_id": 27278,
+     "checked_at": "2026-10-04T22:15:12-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 8000,
+     "discount_cents": 800,
+     "total_cents": 7200,
+     "subtotal": "$80.00 CAD",
+     "discount": "$8.00 CAD",
+     "total": "$72.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "VERIFIED10",
+     "product": "Mazdutide 10mg",
+     "product_id": 11096,
+     "checked_at": "2026-10-04T22:15:14-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 10000,
+     "discount_cents": 1000,
+     "total_cents": 9000,
+     "subtotal": "$100.00 CAD",
+     "discount": "$10.00 CAD",
+     "total": "$90.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PRO10",
+     "product": "BPC-157 / TB-500 Blend 6mg/6mg",
+     "product_id": 1520,
+     "checked_at": "2026-10-04T22:15:16-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7000,
+     "discount_cents": 700,
+     "total_cents": 6300,
+     "subtotal": "$70.00 CAD",
+     "discount": "$7.00 CAD",
+     "total": "$63.00 CAD",
+     "percent_off": 10.0
+    }
+   ],
+   "all_passed": true,
+   "extra_primary": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Human Menopausal Gonadotropin (HMG) 75iu – HMG01",
+     "product_id": 33708,
+     "checked_at": "2026-10-04T22:15:18-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 5000,
+     "discount_cents": 500,
+     "total_cents": 4500,
+     "subtotal": "$50.00 CAD",
+     "discount": "$5.00 CAD",
+     "total": "$45.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "PT-141 10mg",
+     "product_id": 2624,
+     "checked_at": "2026-10-04T22:15:19-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 5000,
+     "discount_cents": 500,
+     "total_cents": 4500,
+     "subtotal": "$50.00 CAD",
+     "discount": "$5.00 CAD",
+     "total": "$45.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Ipamorelin 10mg",
+     "product_id": 2627,
+     "checked_at": "2026-10-04T22:15:21-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7000,
+     "discount_cents": 700,
+     "total_cents": 6300,
+     "subtotal": "$70.00 CAD",
+     "discount": "$7.00 CAD",
+     "total": "$63.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "BPC-157 5mg",
+     "product_id": 724,
+     "checked_at": "2026-10-04T22:15:23-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    }
+   ]
   }
  ],
  "first_run_at": "2026-10-04T00:01:23-04:00",
- "last_verified_at": "2026-10-04T15:30:23-04:00",
+ "last_verified_at": "2026-10-04T22:15:23-04:00",
  "posted": true
 }
