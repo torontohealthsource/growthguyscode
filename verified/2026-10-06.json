@@ -790,9 +790,167 @@
      "percent_off": 10.0
     }
    ]
+  },
+  {
+   "run_at": "2026-10-06T18:30:26-04:00",
+   "records": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "DSIP 10mg",
+     "product_id": 25992,
+     "checked_at": "2026-10-06T18:30:03-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "CANADA",
+     "product": "BPC-157 5mg",
+     "product_id": 724,
+     "checked_at": "2026-10-06T18:30:05-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PEPTIDES",
+     "product": "Tirzepatide 10mg",
+     "product_id": 99,
+     "checked_at": "2026-10-06T18:30:08-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 6000,
+     "discount_cents": 600,
+     "total_cents": 5400,
+     "subtotal": "$60.00 CAD",
+     "discount": "$6.00 CAD",
+     "total": "$54.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HELLO10",
+     "product": "Clenbuterol HCl 40mcg Tablets",
+     "product_id": 40106,
+     "checked_at": "2026-10-06T18:30:10-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 8000,
+     "discount_cents": 800,
+     "total_cents": 7200,
+     "subtotal": "$80.00 CAD",
+     "discount": "$8.00 CAD",
+     "total": "$72.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "VERIFIED10",
+     "product": "MOTS-c 40mg",
+     "product_id": 34148,
+     "checked_at": "2026-10-06T18:30:12-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 12000,
+     "discount_cents": 1200,
+     "total_cents": 10800,
+     "subtotal": "$120.00 CAD",
+     "discount": "$12.00 CAD",
+     "total": "$108.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PRO10",
+     "product": "Semax 10mg",
+     "product_id": 6074,
+     "checked_at": "2026-10-06T18:30:15-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 5000,
+     "discount_cents": 500,
+     "total_cents": 4500,
+     "subtotal": "$50.00 CAD",
+     "discount": "$5.00 CAD",
+     "total": "$45.00 CAD",
+     "percent_off": 10.0
+    }
+   ],
+   "all_passed": true,
+   "extra_primary": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Kisspeptin 5mg",
+     "product_id": 26007,
+     "checked_at": "2026-10-06T18:30:17-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "GLOW Blend 70mg",
+     "product_id": 2636,
+     "checked_at": "2026-10-06T18:30:20-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 8500,
+     "discount_cents": 850,
+     "total_cents": 7650,
+     "subtotal": "$85.00 CAD",
+     "discount": "$8.50 CAD",
+     "total": "$76.50 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "NAD+ 600mg",
+     "product_id": 24171,
+     "checked_at": "2026-10-06T18:30:23-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 5500,
+     "discount_cents": 550,
+     "total_cents": 4950,
+     "subtotal": "$55.00 CAD",
+     "discount": "$5.50 CAD",
+     "total": "$49.50 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Cartalax 20mg",
+     "product_id": 41579,
+     "checked_at": "2026-10-06T18:30:25-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    }
+   ]
   }
  ],
  "first_run_at": "2026-10-06T00:01:59-04:00",
- "last_verified_at": "2026-10-06T15:30:50-04:00",
+ "last_verified_at": "2026-10-06T18:30:26-04:00",
  "posted": true
 }
