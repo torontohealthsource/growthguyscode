@@ -948,9 +948,167 @@
      "percent_off": 10.0
     }
    ]
+  },
+  {
+   "run_at": "2026-10-06T22:16:04-04:00",
+   "records": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Thymosin Alpha-1 12.5mg",
+     "product_id": 11102,
+     "checked_at": "2026-10-06T22:15:47-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7000,
+     "discount_cents": 700,
+     "total_cents": 6300,
+     "subtotal": "$70.00 CAD",
+     "discount": "$7.00 CAD",
+     "total": "$63.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "CANADA",
+     "product": "Tirzepatide 10mg",
+     "product_id": 99,
+     "checked_at": "2026-10-06T22:15:48-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 6000,
+     "discount_cents": 600,
+     "total_cents": 5400,
+     "subtotal": "$60.00 CAD",
+     "discount": "$6.00 CAD",
+     "total": "$54.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PEPTIDES",
+     "product": "Tadalafil 20mg Tablets",
+     "product_id": 30470,
+     "checked_at": "2026-10-06T22:15:50-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 6000,
+     "discount_cents": 600,
+     "total_cents": 5400,
+     "subtotal": "$60.00 CAD",
+     "discount": "$6.00 CAD",
+     "total": "$54.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HELLO10",
+     "product": "Retatrutide 60mg",
+     "product_id": 20913,
+     "checked_at": "2026-10-06T22:15:52-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 30000,
+     "discount_cents": 3000,
+     "total_cents": 27000,
+     "subtotal": "$300.00 CAD",
+     "discount": "$30.00 CAD",
+     "total": "$270.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "VERIFIED10",
+     "product": "KLOW Blend 80mg",
+     "product_id": 11108,
+     "checked_at": "2026-10-06T22:15:54-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 10000,
+     "discount_cents": 1000,
+     "total_cents": 9000,
+     "subtotal": "$100.00 CAD",
+     "discount": "$10.00 CAD",
+     "total": "$90.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PRO10",
+     "product": "Epitalon 10mg",
+     "product_id": 2630,
+     "checked_at": "2026-10-06T22:15:56-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    }
+   ],
+   "all_passed": true,
+   "extra_primary": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "LL-37 10mg",
+     "product_id": 25984,
+     "checked_at": "2026-10-06T22:15:58-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 5000,
+     "discount_cents": 500,
+     "total_cents": 4500,
+     "subtotal": "$50.00 CAD",
+     "discount": "$5.00 CAD",
+     "total": "$45.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "CJC-1295 no DAC 10mg",
+     "product_id": 11088,
+     "checked_at": "2026-10-06T22:15:59-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "BPC-157 10mg",
+     "product_id": 1518,
+     "checked_at": "2026-10-06T22:16:02-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 6000,
+     "discount_cents": 600,
+     "total_cents": 5400,
+     "subtotal": "$60.00 CAD",
+     "discount": "$6.00 CAD",
+     "total": "$54.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Survodutide 10mg",
+     "product_id": 2334,
+     "checked_at": "2026-10-06T22:16:04-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 10000,
+     "discount_cents": 1000,
+     "total_cents": 9000,
+     "subtotal": "$100.00 CAD",
+     "discount": "$10.00 CAD",
+     "total": "$90.00 CAD",
+     "percent_off": 10.0
+    }
+   ]
   }
  ],
  "first_run_at": "2026-10-06T00:01:59-04:00",
- "last_verified_at": "2026-10-06T18:30:26-04:00",
+ "last_verified_at": "2026-10-06T22:16:04-04:00",
  "posted": true
 }
