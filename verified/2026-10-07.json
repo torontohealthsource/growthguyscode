@@ -632,8 +632,167 @@
      "percent_off": 10.0
     }
    ]
+  },
+  {
+   "run_at": "2026-10-07T22:15:59-04:00",
+   "records": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Semaglutide 10mg",
+     "product_id": 6300,
+     "checked_at": "2026-10-07T22:15:42-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 8000,
+     "discount_cents": 800,
+     "total_cents": 7200,
+     "subtotal": "$80.00 CAD",
+     "discount": "$8.00 CAD",
+     "total": "$72.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "CANADA",
+     "product": "LL-37 10mg",
+     "product_id": 25984,
+     "checked_at": "2026-10-07T22:15:44-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 5000,
+     "discount_cents": 500,
+     "total_cents": 4500,
+     "subtotal": "$50.00 CAD",
+     "discount": "$5.00 CAD",
+     "total": "$45.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PEPTIDES",
+     "product": "CJC-1295 no DAC + Ipamorelin Blend 5mg/5mg",
+     "product_id": 2640,
+     "checked_at": "2026-10-07T22:15:46-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7500,
+     "discount_cents": 750,
+     "total_cents": 6750,
+     "subtotal": "$75.00 CAD",
+     "discount": "$7.50 CAD",
+     "total": "$67.50 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HELLO10",
+     "product": "Telmisartan 40mg Tablets",
+     "product_id": 40111,
+     "checked_at": "2026-10-07T22:15:48-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 5000,
+     "discount_cents": 500,
+     "total_cents": 4500,
+     "subtotal": "$50.00 CAD",
+     "discount": "$5.00 CAD",
+     "total": "$45.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "VERIFIED10",
+     "product": "FOXO4-DRI 10mg",
+     "product_id": 117958,
+     "checked_at": "2026-10-07T22:15:50-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 8000,
+     "discount_cents": 800,
+     "total_cents": 7200,
+     "subtotal": "$80.00 CAD",
+     "discount": "$8.00 CAD",
+     "total": "$72.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "PRO10",
+     "product": "BPC-157 / TB-500 Blend 6mg/6mg",
+     "product_id": 1520,
+     "checked_at": "2026-10-07T22:15:51-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7000,
+     "discount_cents": 700,
+     "total_cents": 6300,
+     "subtotal": "$70.00 CAD",
+     "discount": "$7.00 CAD",
+     "total": "$63.00 CAD",
+     "percent_off": 10.0
+    }
+   ],
+   "all_passed": true,
+   "extra_primary": [
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Lyophilized Cerebrolysin (Cerebroprotein Hydrolysate) 6 x 60mg (360mg Box)",
+     "product_id": 35137,
+     "checked_at": "2026-10-07T22:15:53-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 12500,
+     "discount_cents": 1250,
+     "total_cents": 11250,
+     "subtotal": "$125.00 CAD",
+     "discount": "$12.50 CAD",
+     "total": "$112.50 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Thymosin Alpha-1 12.5mg",
+     "product_id": 11102,
+     "checked_at": "2026-10-07T22:15:55-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 7000,
+     "discount_cents": 700,
+     "total_cents": 6300,
+     "subtotal": "$70.00 CAD",
+     "discount": "$7.00 CAD",
+     "total": "$63.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "DSIP 10mg",
+     "product_id": 25992,
+     "checked_at": "2026-10-07T22:15:57-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 4000,
+     "discount_cents": 400,
+     "total_cents": 3600,
+     "subtotal": "$40.00 CAD",
+     "discount": "$4.00 CAD",
+     "total": "$36.00 CAD",
+     "percent_off": 10.0
+    },
+    {
+     "code": "HEALTHYLIFE10",
+     "product": "Orforglipron 6mg Tablets",
+     "product_id": 30467,
+     "checked_at": "2026-10-07T22:15:59-04:00",
+     "status": "PASS",
+     "currency": "CAD",
+     "subtotal_cents": 17500,
+     "discount_cents": 1750,
+     "total_cents": 15750,
+     "subtotal": "$175.00 CAD",
+     "discount": "$17.50 CAD",
+     "total": "$157.50 CAD",
+     "percent_off": 10.0
+    }
+   ]
   }
  ],
  "first_run_at": "2026-10-07T00:01:38-04:00",
- "last_verified_at": "2026-10-07T17:34:54-04:00"
+ "last_verified_at": "2026-10-07T22:15:59-04:00",
+ "posted": true
 }
